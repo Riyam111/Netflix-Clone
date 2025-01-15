@@ -7,73 +7,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Dependency directories
 node_modules/
-.pnp/
-.pnp.js
-
-# Build directories
-dist/
-dist-ssr/
-out/
-build/
-
-# Local environment files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+dist
+dist-ssr
+*.local
 
 # Editor directories and files
-.vscode/
+.vscode/*
 !.vscode/extensions.json
-.idea/
+.idea
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+firewall.js
 
-# OS-generated files
-Thumbs.db
-ehthumbs.db
-*.stackdump
-
-# Coverage directory (if using testing tools like Jest)
-coverage/
-
-# Yarn Integrity file
-.yarn-integrity
-
-# Node.js cache
-.npm/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Parcel-bundler cache (if applicable)
-.cache/
-
-# eslint cache
-.eslintcache
-
-# Jest snapshot testing
-*.snap
-
-# Prettier cache
-.prettier-cache/
-
-# Storybook files (if using Storybook)
-storybook-static/
-
-# Optional npm cache directory
-.npm/
-
-# Temp files
-*.tmp
-*.temp
-
-# VS Code working directories
-.vscode-test/

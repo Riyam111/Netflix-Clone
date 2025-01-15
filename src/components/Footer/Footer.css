@@ -1,0 +1,39 @@
+.footer{
+    padding: 30px 4%;
+    margin: 0 auto;
+    max-width: 1000px;
+}
+.footer-icon{
+    display: flex;
+    gap: 15px;
+    margin: 20px 10px;
+}
+.footer-icon img{
+    width: 25px;
+    cursor: pointer;
+
+}
+.footer ul{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 15px;
+    list-style: none;
+    margin-bottom: 26px;
+    color: gray;
+    font-size: 13px;
+}
+.copyright-text{
+    color: gray;
+    font-size: 13px;
+}
+@media (max-width:800px) {
+    .footer-icon img{
+        width: 25px;
+    }
+    .footer ul{
+        grid-template-columns: auto auto;
+        gap: 8px;
+        font-size: 14px;
+        
+    }
+}
